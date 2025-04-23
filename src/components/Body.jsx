@@ -1,6 +1,8 @@
 import React from "react";
 import Login from "./Login";
 import Browse from "./Browse";
+import Timings from "./TimingList";
+import BookSeat from "./BookSeat";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const Body = () => {
@@ -12,6 +14,14 @@ const Body = () => {
     {
       path: "/browse",
       element: <Browse />,
+    },
+    {
+      path: "/timings",
+      element: <Timings />,
+    },
+    {
+      path: "/book-seat",
+      element: <BookSeat />,
     },
   ]);
 
