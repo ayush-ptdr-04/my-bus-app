@@ -51,7 +51,7 @@ const BookSeat = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-yellow-700">
+    <div className="flex flex-col items-center justify-center h-screen bg-gray-300">
       <h1 className="text-4xl font-bold">
         Booking Seat for {from} → {to}
       </h1>
